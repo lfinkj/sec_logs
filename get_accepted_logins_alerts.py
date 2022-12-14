@@ -14,7 +14,7 @@ ips_list_dups = []
 ips_list_no_dups = []
 accepted_user_re = re.compile( r"\ Accepted password\ " )
 ip_re = re.compile( r"[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}" )
-accepted_ips = r"filtered out ip goes here"
+accepted_ips = r"redundant ips here"
 
 #### loop all ossec alert files, get all accepted success users, get all accepted successfull, get no duplicates ip list
 def all_success_accepted_entries():
